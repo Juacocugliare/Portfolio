@@ -553,6 +553,13 @@ section.active {
     html{
         font-size: 55%;
     }
+    .containerc .emailwsp a{
+        font-size: 14px;
+    }
+
+    .containerc .emailwsp a i{
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -681,7 +688,7 @@ section.active {
     background: var(--bg-color);
     border: 2px solid var(--main-color);
     padding: 10px 15rem;
-    width: 35%;
+    width: 38%;
     border-radius: 12px;
 }
 
@@ -718,8 +725,11 @@ section.active {
     text-decoration: none;
     transition: color 0.3s;
 }
-
 .email-link:hover {
     color: var(--main-color);
     text-decoration: underline;
+}
+
+.live-github{
+    margin-top: 1.2rem;
 }
