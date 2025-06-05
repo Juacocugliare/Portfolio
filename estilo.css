@@ -621,6 +621,10 @@ section.active {
     .portfolio-container .portfolio-box:first-child{
         order: 1;
     }
+    .home-detail .btn-sci a{
+        padding: .6rem;
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -698,7 +702,7 @@ section.active {
     border-radius: 50px;
     z-index: 100;
 }
-.emailwsp a:hover{
+.emailwsp a:hover:last-child{
     transform: scale(1.1);
 }
 
@@ -727,7 +731,6 @@ section.active {
 }
 .email-link:hover {
     color: var(--main-color);
-    text-decoration: underline;
 }
 
 .live-github{
